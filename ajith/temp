@@ -1,0 +1,62 @@
+
+source venv01/bin/activate
+
+
+leave variants
+allowance variants 
+deductable variants
+
+
+register admin
+get registration otp
+submit_registration_otp
+resend_registration_otp
+register_admin
+
+
+
+
+
+
+
+
+
+   
+let num=8
+let display=""
+if(num%2==0){
+    display="divisible by 2"
+    if(num%2==0&&num%4==0){
+        display="divisible by 2&4"
+        if(num%2==0&&num%4==0&&num%8==0){display="divisible by 2,4&8"
+        }
+    }
+}
+else{display="not divisible by 2,4&8"}
+{
+    console.log(display)
+}
+let gender="female"
+let age =57
+let salary=""
+if(gender="male"){
+if(age<30||age>30){salary= 25000
+    if(age>30){salary= 40000
+        if(age>50){salary = 50000+1000*(age-50)
+        }       
+}
+}
+}
+
+if(gender="female"){
+if(age<30||age>30){salary=30000
+if(age>30){salary=42000
+if(age>50){salary=52000+1000*(age-50)
+}
+}
+}
+}
+{
+    console.log(salary)
+}
+
